@@ -1,0 +1,57 @@
+{
+  "name": "relider",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "classnames": "^2.2.5",
+    "compression-webpack-plugin": "^1.1.8",
+    "hoist-non-react-statics": "^2.5.0",
+    "html-webpack-plugin": "github:webpack-contrib/html-webpack-plugin",
+    "keycode": "^2.1.9",
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-jss": "^8.3.3",
+    "tapable": "^1.0.0-beta.5",
+    "theming": "^1.3.0",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.0.0",
+    "webpack-bundle-analyzer": "^2.11.0",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.0.0",
+    "webpack-split-chunks": "^0.2.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc -c ./jsdoc.conf",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brainfood-com/relider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0",
+      "stage-2"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/Brainfood-com/relider/issues"
+  },
+  "homepage": "https://github.com/Brainfood-com/relider#readme"
+}
