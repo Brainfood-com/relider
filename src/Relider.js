@@ -180,6 +180,7 @@ const styles = theme => {
     },
     sliderContainer: {
       position: 'relative',
+      overflow: 'hidden',
       '&:hover': {
         '& $trackContainer': {
           backgroundColor: trackColorSelected,
